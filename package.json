@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "pulya",
+  "description": "Rep",
+  "version": "1.0.0",
+  "main": "sad.js",
+  "author": "",
+  "license": "ISC"
+}
