@@ -22,7 +22,7 @@ viewportChangeButton=()=>{
   document.getElementById("btn").style="font-size:5vh; padding:1vh;";
   }else{
   document.getElementById("upperTXT").style="font-size:3vw;";
-  document.getElementById("username").style="font-size:3vw;";
+  document.getElementById("username").style="font-size:2.5vw;";
   document.getElementById("table_choice").style="font-size:3vw;";
   document.getElementById("pool").style=`height:2vw;
                                          width:2vw;
@@ -30,11 +30,11 @@ viewportChangeButton=()=>{
   document.getElementById("piramid").style=`height:2vw;
                                             width:2vw;
                                             margin-top:1vw;`;
-  document.getElementById("Pool").style="font-size:2vw; padding-left:1vw; font-weight:500;";
-  document.getElementById("Piramid").style="font-size:2vw; padding-left:1vw; margin-top:0.5vw; font-weight:500;";
-  document.getElementById("date").style="font-size:2vw;";
-  document.getElementById("time").style="font-size:2vw;";
-  document.getElementById("customSelect").style="font-size:2vw;";
+  document.getElementById("Pool").style="font-size:2.5vw; padding-left:1vw; font-weight:500;";
+  document.getElementById("Piramid").style="font-size:2.5vw; padding-left:1vw; margin-top:0.5vw; font-weight:500;";
+  document.getElementById("date").style="font-size:2.5vw;";
+  document.getElementById("time").style="font-size:2.5vw;";
+  document.getElementById("customSelect").style="font-size:2.5vw;";
   document.getElementById("btn").style="font-size:3vw; padding:1vw; width:28vw; height:8vw;";
   }
 }

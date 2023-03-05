@@ -16,6 +16,8 @@ document.getElementById('D8').innerHTML='8 часов';
 document.getElementById('username').placeholder='Имя';
 document.getElementById('btn').value='Подтвердить';
 
+document.getElementById('username').placeholder.color='white';
+
 
 //Alerts
 
