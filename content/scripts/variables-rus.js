@@ -3,7 +3,7 @@
 document.getElementById('upperTXT').innerHTML='Бронирование стола';
 document.getElementById('table_choice').innerHTML='Выбор стола:';
 document.getElementById('Pool').innerHTML='Пул';
-document.getElementById('Russian').innerHTML='Русская пирамида';
+document.getElementById('Piramid').innerHTML='Русская пирамида';
 document.getElementById('duration').innerHTML='Продолжительность..';
 document.getElementById('D1').innerHTML='1 час';
 document.getElementById('D2').innerHTML='2 часа';

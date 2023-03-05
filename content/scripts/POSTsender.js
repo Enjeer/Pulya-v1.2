@@ -1,4 +1,4 @@
-postSend=(username, table, time, date, duration)=>{
+postSend=(username, table, time, date, duration, response)=>{
 
   var xhr = new XMLHttpRequest();
 
@@ -12,6 +12,11 @@ postSend=(username, table, time, date, duration)=>{
 //------------------------------------------------\\  
 //body - username - table - time - date - duration\\
 
+xhr.responseType = 'text';
+
+  xhr.onload=()=>{
+    alert(xhr.responseText);
+  }
 
   xhr.open("POST", '/', true);
 xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
